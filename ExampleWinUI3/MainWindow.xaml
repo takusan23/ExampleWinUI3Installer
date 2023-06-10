@@ -1,0 +1,29 @@
+﻿<!-- Copyright (c) Microsoft Corporation. All rights reserved. -->
+<!-- Licensed under the MIT License. See LICENSE in the project root for license information. -->
+
+<Window
+    x:Class="ExampleWinUI3.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ExampleWinUI3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+
+    <NavigationView x:Name="nvSample">
+        <NavigationView.MenuItems>
+            <NavigationViewItem Icon="Play" Content="再生" />
+            <NavigationViewItem Icon="Save" Content="保存" />
+            <NavigationViewItem Icon="Refresh" Content="リロード" />
+            <NavigationViewItem Icon="Download" Content="ダウンロード" />
+        </NavigationView.MenuItems>
+
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Padding="10" x:Name="myButton" Click="myButton_Click">Click Me</Button>
+            <ProgressRing Padding="10" IsActive="True" Background="LightGray"/>
+            <ToggleSwitch Padding="10" AutomationProperties.Name="simple ToggleSwitch"/>
+        </StackPanel>
+
+    </NavigationView>
+</Window>
