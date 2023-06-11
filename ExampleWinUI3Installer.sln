@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleWinUI3", "ExampleWinUI3\ExampleWinUI3.csproj", "{0C723282-B928-43EF-91EF-64122576CC7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleWinUI3", "ExampleWinUI3\ExampleWinUI3.csproj", "{0C723282-B928-43EF-91EF-64122576CC7E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installer", "Installer\Installer.vdproj", "{2210C384-0BB5-429C-8649-3EE4E4CE6DD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,12 @@ Global
 		{0C723282-B928-43EF-91EF-64122576CC7E}.Release|x86.ActiveCfg = Release|x86
 		{0C723282-B928-43EF-91EF-64122576CC7E}.Release|x86.Build.0 = Release|x86
 		{0C723282-B928-43EF-91EF-64122576CC7E}.Release|x86.Deploy.0 = Release|x86
+		{2210C384-0BB5-429C-8649-3EE4E4CE6DD9}.Debug|arm64.ActiveCfg = Debug
+		{2210C384-0BB5-429C-8649-3EE4E4CE6DD9}.Debug|x64.ActiveCfg = Debug
+		{2210C384-0BB5-429C-8649-3EE4E4CE6DD9}.Debug|x86.ActiveCfg = Debug
+		{2210C384-0BB5-429C-8649-3EE4E4CE6DD9}.Release|arm64.ActiveCfg = Release
+		{2210C384-0BB5-429C-8649-3EE4E4CE6DD9}.Release|x64.ActiveCfg = Release
+		{2210C384-0BB5-429C-8649-3EE4E4CE6DD9}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
